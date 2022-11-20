@@ -132,10 +132,8 @@ input:required, textarea:required {
 <div id="contact-form">
     <div>
         <h1>Nice to Meet You!</h1>
-        <h4>Have a question or just want to get in touch? Let's chat.</h4>
     </div>
-    <p id="failure">Oopsie...message not sent.</p>
-    <p id="success">Your message was sent successfully. Thank you!</p>
+
 
     <form method="post" action="/">
         <div>
@@ -163,7 +161,7 @@ input:required, textarea:required {
         <div>
             <label for="phnumber">
                 <span class="required">Phone Number: *</span>
-                <textarea id="phnumber" name="phnumber" placeholder="Enter your phone number."  required="required"></textarea>
+                <input type="tel" id="phnumber" name="phnumber" placeholder="Enter your phone number."  required="required"></input>
             </label>
         </div>
         <div>
@@ -175,7 +173,7 @@ input:required, textarea:required {
         <div>
             <label for="state">
                 <span>State:</span>
-                <textarea id="state" name="state" placeholder="Enter where are you from." required></textarea>
+                <input type="text" id="state" name="state" placeholder="Enter where are you from." required></input>
             </label>
         </div>
         <div>
