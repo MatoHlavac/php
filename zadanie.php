@@ -189,12 +189,12 @@ if(isset($_POST['name']))
 {
 
     $fp = fopen('data.txt', 'a');
-    $name=$_POST['name'];
-    $email=$_POST['email'];
-    $gender=$_POST['gender'];
-    $phnumber=$_POST['phnumber'];
-    $password=$_POST['password'];
-    $state=$_POST['state'];
+    $name=$_POST['name']."\n";
+    $email=$_POST['email']."\n";
+    $gender=$_POST['gender']."\n";
+    $phnumber=$_POST['phnumber']."\n";
+    $password=$_POST['password']."\n";
+    $state=$_POST['state']."\n";
 
 
 
